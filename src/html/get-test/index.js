@@ -1,4 +1,4 @@
-let arc = require('@architect/functions')
+let begin = require('@architect/functions')
 
 // TODO change defaultHTML
 let defaultHTML = `
@@ -9,16 +9,16 @@ let defaultHTML = `
     <title>Hi!</title>
   </head>
   <body style="font-family: sans-serif;">
-    <h1>OMG testing!</h1>
+    <h1>Hello world!</h1>
   </body>
 </html>
 `
 
-function route(req, res) {
+function route (req, res) {
   console.log(JSON.stringify(req, null, 2))
   res({
     html: defaultHTML
   })
 }
 
-exports.handler = arc.html.get(route)
+exports.handler = begin.html.get(route)
