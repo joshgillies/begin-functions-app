@@ -9,7 +9,7 @@ let defaultHTML = `
     <title>Hi!</title>
   </head>
   <body style="font-family: sans-serif;">
-    <h1>Hello world!</h1>
+    <h1>🍎</h1>
   </body>
 </html>
 `
