@@ -1,0 +1,7 @@
+{
+  "name": "cocoon-m6y-get-test",
+  "dependencies": {
+    "@architect/data": "^2.0.5",
+    "@architect/functions": "^1.9.2"
+  }
+}

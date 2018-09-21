@@ -5,7 +5,8 @@
   "scripts": {
     "lint": "eslint src --ignore-pattern node_modules --fix",
     "test": "NODE_ENV=testing tape test/*-test.js | tap-spec",
-    "start": "NODE_ENV=testing ARC_LOCAL=1 npx sandbox"
+    "start": "NODE_ENV=testing ARC_LOCAL=1 npx sandbox",
+    "create": "ARC_LOCAL=1 npx create"
   },
   "dependencies": {
     "@architect/workflows": "latest",
