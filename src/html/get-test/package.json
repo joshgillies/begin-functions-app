@@ -1,7 +1,7 @@
 {
-  "name": "cocoon-m6y-get-test",
+  "name": "begin-app-get-test",
   "dependencies": {
-    "@architect/data": "^2.0.5",
-    "@architect/functions": "^1.9.2"
+    "@architect/functions": "latest",
+    "@begin-functions/data": "latest"
   }
 }
